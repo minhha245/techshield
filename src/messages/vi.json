@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Trang chu",
+    "about": "Gioi thieu",
+    "services": "Dich vu",
+    "partners": "Doi tac",
+    "news": "Tin tuc",
+    "contact": "Lien he"
+  },
+  "hero": {
+    "tagline": "Doi tac tin cay trong ky nguyen so",
+    "subtitle": "Chuyen cung cap giai phap CNTT va an toan thong tin toan dien, giup doanh nghiep phat trien ben vung va an toan trong moi truong so hoa.",
+    "cta": "Ve TechShield"
+  },
+  "about": {
+    "heading": "Ve TechShield",
+    "intro": "Voi hon 5 nam kinh nghiem, TechShield la doi tac tin cay cua rat nhieu doanh nghiep trong viec xay dung va bao ve ha tang cong nghe thong tin.",
+    "highlights": {
+      "experience": "Kinh nghiem 10+ nam",
+      "experienceDesc": "Doi ngu chuyen gia voi hon 10 nam kinh nghiem trong linh vuc CNTT va an toan thong tin.",
+      "solutions": "Giai phap toan dien",
+      "solutionsDesc": "Tu tu van, thiet ke den trien khai va bao tri, chung toi cung cap dich vu end-to-end.",
+      "support": "Ho tro 24/7",
+      "supportDesc": "Doi ngu ky thuat san sang ho tro khach hang 24/7 voi thoi gian phan hoi nhanh chong.",
+      "certifications": "Chung nhan quoc te",
+      "certificationsDesc": "Cac chung nhan ISO 27001, CISSP va nhieu chung nhan quoc te khac."
+    },
+    "certBadgeAlt": {
+      "iso": "Chung nhan ISO 27001",
+      "cissp": "Chung nhan CISSP"
+    }
+  },
+  "services": {
+    "heading": "Dich vu noi bat",
+    "subheading": "Giai phap toan dien tu tu van den trien khai, dap ung moi nhu cau CNTT cua doanh nghiep",
+    "items": {
+      "consulting": {
+        "title": "Tu van An toan thong tin",
+        "description": "Danh gia rui ro, tu van chinh sach bao mat va trien khai giai phap an toan thong tin toan dien."
+      },
+      "infrastructure": {
+        "title": "Thiet ke ha tang CNTT",
+        "description": "Thiet ke va trien khai ha tang mang, server, storage dap ung nhu cau doanh nghiep."
+      },
+      "equipment": {
+        "title": "Mua ban thiet bi CNTT",
+        "description": "Cung cap thiet bi CNTT chinh hang tu cac thuong hieu hang dau the gioi."
+      },
+      "hardware_software": {
+        "title": "Tu van phan cung/phan mem",
+        "description": "Tu van lua chon va trien khai giai phap phan cung, phan mem phu hop."
+      }
+    }
+  },
+  "partners": {
+    "heading": "Doi tac chien luoc",
+    "subheading": "Hop tac voi cac thuong hieu cong nghe hang dau the gioi",
+    "alt": {
+      "microsoft": "Logo Microsoft",
+      "cisco": "Logo Cisco",
+      "vmware": "Logo VMware",
+      "dell": "Logo Dell",
+      "hpe": "Logo HP Enterprise",
+      "fortinet": "Logo Fortinet"
+    }
+  },
+  "news": {
+    "heading": "Tin tuc & Su kien",
+    "subheading": "Cap nhat nhung thong tin moi nhat ve cong nghe va hoat dong cua TechShield",
+    "readMore": "Doc them",
+    "notAvailable": "Bai viet chua co san",
+    "items": {
+      "news1": {
+        "title": "TechShield duoc chung nhan ISO 27001:2022",
+        "excerpt": "Cong ty vua nhan duoc chung nhan quan ly an toan thong tin quoc te ISO 27001 phien ban moi nhat."
+      },
+      "news2": {
+        "title": "Hoi thao An toan thong tin trong ky nguyen so",
+        "excerpt": "Su kien quy tu hon 200 chuyen gia IT va lanh dao doanh nghiep hang dau Viet Nam."
+      },
+      "news3": {
+        "title": "Mo rong dich vu Cloud Security",
+        "excerpt": "Ra mat bo giai phap bao mat dam may toan dien cho doanh nghiep vua va nho."
+      }
+    }
+  },
+  "cta": {
+    "heading": "San sang bao ve doanh nghiep cua ban?",
+    "description": "Lien he voi chung toi ngay hom nay de duoc tu van mien phi ve giai phap CNTT va an toan thong tin",
+    "button": "Lien he ngay"
+  },
+  "footer": {
+    "address": "37 Ngo 599 Pham Van Dong, TDP Hoang 15, Phuong Nghia Do, Thanh Pho Ha Noi",
+    "copyright": "© {year} Cong ty TNHH Cong Nghe TechShield. Tat ca quyen duoc bao luu.",
+    "services": "Dich vu",
+    "serviceLinks": {
+      "consulting": "Tu van An toan thong tin",
+      "infrastructure": "Thiet ke ha tang CNTT",
+      "equipment": "Mua ban thiet bi CNTT",
+      "hardware_software": "Tu van phan cung/phan mem"
+    }
+  }
+}

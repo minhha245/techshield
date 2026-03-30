@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "partners": "Partners",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Your Trusted Partner in the Digital Era",
+    "subtitle": "Providing comprehensive IT and information security solutions, helping businesses grow sustainably and securely in the digital environment.",
+    "cta": "About TechShield"
+  },
+  "about": {
+    "heading": "About TechShield",
+    "intro": "With over 5 years of experience, TechShield is a trusted partner for many businesses in building and protecting their IT infrastructure.",
+    "highlights": {
+      "experience": "10+ Years of Experience",
+      "experienceDesc": "A team of experts with over 10 years of experience in IT and information security.",
+      "solutions": "Comprehensive Solutions",
+      "solutionsDesc": "From consulting and design to deployment and maintenance, we provide end-to-end services.",
+      "support": "24/7 Support",
+      "supportDesc": "Our technical team is ready to support customers 24/7 with fast response times.",
+      "certifications": "International Certifications",
+      "certificationsDesc": "ISO 27001, CISSP and many other international certifications."
+    },
+    "certBadgeAlt": {
+      "iso": "ISO 27001 Certification",
+      "cissp": "CISSP Certification"
+    }
+  },
+  "services": {
+    "heading": "Featured Services",
+    "subheading": "Comprehensive solutions from consulting to deployment, meeting all enterprise IT needs",
+    "items": {
+      "consulting": {
+        "title": "Information Security Consulting",
+        "description": "Risk assessment, security policy consulting, and comprehensive information security solution deployment."
+      },
+      "infrastructure": {
+        "title": "IT Infrastructure Design",
+        "description": "Design and deploy network, server, and storage infrastructure to meet enterprise needs."
+      },
+      "equipment": {
+        "title": "IT Equipment Sales",
+        "description": "Supply genuine IT equipment from the world's leading brands."
+      },
+      "hardware_software": {
+        "title": "Hardware/Software Consulting",
+        "description": "Consulting on selecting and deploying appropriate hardware and software solutions."
+      }
+    }
+  },
+  "partners": {
+    "heading": "Strategic Partners",
+    "subheading": "Partnering with the world's leading technology brands",
+    "alt": {
+      "microsoft": "Microsoft Logo",
+      "cisco": "Cisco Logo",
+      "vmware": "VMware Logo",
+      "dell": "Dell Logo",
+      "hpe": "HP Enterprise Logo",
+      "fortinet": "Fortinet Logo"
+    }
+  },
+  "news": {
+    "heading": "News & Events",
+    "subheading": "Stay updated with the latest technology news and TechShield activities",
+    "readMore": "Read More",
+    "notAvailable": "Article not yet available",
+    "items": {
+      "news1": {
+        "title": "TechShield Achieves ISO 27001:2022 Certification",
+        "excerpt": "The company has just received the latest version of the ISO 27001 international information security management certification."
+      },
+      "news2": {
+        "title": "Information Security in the Digital Era Conference",
+        "excerpt": "An event bringing together over 200 IT experts and leading business executives in Vietnam."
+      },
+      "news3": {
+        "title": "Expanding Cloud Security Services",
+        "excerpt": "Launching a comprehensive cloud security solution suite for small and medium enterprises."
+      }
+    }
+  },
+  "cta": {
+    "heading": "Ready to Protect Your Business?",
+    "description": "Contact us today for a free consultation on IT and information security solutions",
+    "button": "Contact Us"
+  },
+  "footer": {
+    "address": "37 Ngo 599 Pham Van Dong, TDP Hoang 15, Nghia Do Ward, Hanoi",
+    "copyright": "© {year} TechShield Technology Co., Ltd. All rights reserved.",
+    "services": "Services",
+    "serviceLinks": {
+      "consulting": "Information Security Consulting",
+      "infrastructure": "IT Infrastructure Design",
+      "equipment": "IT Equipment Sales",
+      "hardware_software": "Hardware/Software Consulting"
+    }
+  }
+}
