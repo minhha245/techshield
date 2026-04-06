@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <span className="text-white font-bold text-xl block mb-3">TechShield</span>
+            <span className="text-white font-bold text-xl block mb-3">SysT</span>
             <p className="text-sm leading-relaxed text-gray-400">
               {t('hero.subtitle')}
             </p>
