@@ -10,11 +10,11 @@
   "hero": {
     "tagline": "Doi tac tin cay trong ky nguyen so",
     "subtitle": "Chuyen cung cap giai phap CNTT va an toan thong tin toan dien, giup doanh nghiep phat trien ben vung va an toan trong moi truong so hoa.",
-    "cta": "Ve TechShield"
+    "cta": "Ve SysT"
   },
   "about": {
-    "heading": "Ve TechShield",
-    "intro": "Voi hon 5 nam kinh nghiem, TechShield la doi tac tin cay cua rat nhieu doanh nghiep trong viec xay dung va bao ve ha tang cong nghe thong tin.",
+    "heading": "Ve SysT",
+    "intro": "Voi hon 5 nam kinh nghiem, SysT la doi tac tin cay cua rat nhieu doanh nghiep trong viec xay dung va bao ve ha tang cong nghe thong tin.",
     "highlights": {
       "experience": "Kinh nghiem 10+ nam",
       "experienceDesc": "Doi ngu chuyen gia voi hon 10 nam kinh nghiem trong linh vuc CNTT va an toan thong tin.",
@@ -66,12 +66,12 @@
   },
   "news": {
     "heading": "Tin tuc & Su kien",
-    "subheading": "Cap nhat nhung thong tin moi nhat ve cong nghe va hoat dong cua TechShield",
+    "subheading": "Cap nhat nhung thong tin moi nhat ve cong nghe va hoat dong cua SysT",
     "readMore": "Doc them",
     "notAvailable": "Bai viet chua co san",
     "items": {
       "news1": {
-        "title": "TechShield duoc chung nhan ISO 27001:2022",
+        "title": "SysT duoc chung nhan ISO 27001:2022",
         "excerpt": "Cong ty vua nhan duoc chung nhan quan ly an toan thong tin quoc te ISO 27001 phien ban moi nhat."
       },
       "news2": {
@@ -91,7 +91,7 @@
   },
   "footer": {
     "address": "37 Ngo 599 Pham Van Dong, TDP Hoang 15, Phuong Nghia Do, Thanh Pho Ha Noi",
-    "copyright": "© {year} Cong ty TNHH Cong Nghe TechShield. Tat ca quyen duoc bao luu.",
+    "copyright": "© {year} Cong ty TNHH Cong Nghe SysT. Tat ca quyen duoc bao luu.",
     "services": "Dich vu",
     "serviceLinks": {
       "consulting": "Tu van An toan thong tin",
