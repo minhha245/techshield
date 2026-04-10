@@ -5,6 +5,8 @@
   --color-primary-dark: #003D99;
   --color-primary-light: #E6F0FF;
   --color-accent: #FF6B35;
+  --color-navy: #152238;
+  --color-navy-dark: #080f1c;
   --font-sans: var(--font-inter);
 }
 

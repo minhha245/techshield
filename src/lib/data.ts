@@ -35,16 +35,16 @@ export const SERVICES: ServiceItem[] = [
 ];
 
 export const PARTNERS: PartnerItem[] = [
-  { id: 'microsoft', name: 'Microsoft',     logo: '/images/partners/microsoft.svg', altKey: 'partners.alt.microsoft' },
-  { id: 'cisco',     name: 'Cisco',         logo: '/images/partners/cisco.svg',     altKey: 'partners.alt.cisco' },
-  { id: 'vmware',    name: 'VMware',        logo: '/images/partners/vmware.svg',    altKey: 'partners.alt.vmware' },
-  { id: 'dell',      name: 'Dell',          logo: '/images/partners/dell.svg',      altKey: 'partners.alt.dell' },
-  { id: 'hpe',       name: 'HP Enterprise', logo: '/images/partners/hpe.svg',       altKey: 'partners.alt.hpe' },
-  { id: 'fortinet',  name: 'Fortinet',      logo: '/images/partners/fortinet.svg',  altKey: 'partners.alt.fortinet' },
+  { id: 'microsoft', name: 'TP-Link',       logo: '/images/partners/TP-Link-Logo.wine.svg', altKey: 'partners.alt.microsoft' },
+  { id: 'cisco',     name: 'Cisco',         logo: '/images/partners/cisco_logo_icon_169399.svg',     altKey: 'partners.alt.cisco' },
+  { id: 'vmware',    name: 'VMware',        logo: '/images/partners/vmware.png',    altKey: 'partners.alt.vmware' },
+  { id: 'dell',      name: 'Dell',          logo: '/images/partners/dell.png',      altKey: 'partners.alt.dell' },
+  { id: 'hpe',       name: 'Aruba',         logo: '/images/partners/aruba-networks.svg',    altKey: 'partners.alt.hpe' },
+  { id: 'fortinet',  name: 'Fortinet',      logo: '/images/partners/Fortinet-Logo.wine.svg',  altKey: 'partners.alt.fortinet' },
 ];
 
 export const NEWS_ITEMS: NewsItem[] = [
-  { id: 'news1', slug: 'iso-27001-2022',  titleKey: 'news.items.news1.title', excerptKey: 'news.items.news1.excerpt', date: '2024-12-15', thumbnail: '/images/news/iso-cert.svg' },
+  { id: 'news1', slug: 'iso-27001-2022',  titleKey: 'news.items.news1.title', excerptKey: 'news.items.news1.excerpt', date: '2024-12-15', thumbnail: '/images/news/CEH-logo.png' },
   { id: 'news2', slug: 'conference-2024', titleKey: 'news.items.news2.title', excerptKey: 'news.items.news2.excerpt', date: '2024-12-10', thumbnail: '/images/news/conference.svg' },
   { id: 'news3', slug: 'cloud-security',  titleKey: 'news.items.news3.title', excerptKey: 'news.items.news3.excerpt', date: '2024-12-05', thumbnail: '/images/news/cloud.svg' },
 ];

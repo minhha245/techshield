@@ -28,10 +28,10 @@ export default function ServicesSection() {
   const t = useTranslations('services');
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-gray-50">
+    <section id="services" className="py-16 md:py-24 bg-[#152238]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">{t('heading')}</h2>
-        <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">{t('subheading')}</p>
+        <h2 className="text-3xl font-bold text-center mb-4 text-white">{t('heading')}</h2>
+        <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">{t('subheading')}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {SERVICES.map((service) => {
@@ -39,15 +39,15 @@ export default function ServicesSection() {
             return (
               <div
                 key={service.id}
-                className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow"
+                className="bg-white/5 border border-white/10 p-6 rounded-xl hover:shadow-md transition-shadow"
               >
                 <div className="w-12 h-12 bg-primary-light rounded-lg flex items-center justify-center text-primary mb-4">
                   {ICON_SVG[service.icon]}
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">
+                <h3 className="font-semibold text-white mb-2">
                   {t(`items.${itemKey}.title`)}
                 </h3>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-gray-400">
                   {t(`items.${itemKey}.description`)}
                 </p>
               </div>

@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center text-white">
       {/* Background image — priority=true for LCP */}
       <BackgroundImage
-        src="/images/hero-bg.svg"
+        src="/images/hero-bg.jpg"
         alt=""
         fill
         sizes="100vw"
@@ -17,7 +17,7 @@ export default function HeroSection() {
         className="object-cover"
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-primary/80" />
+      <div className="absolute inset-0 bg-[#0a1628]/75" />
 
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">

@@ -16,13 +16,17 @@ const NAV_LINKS = [
 
 function Logo() {
   return (
-    <Image
-      src="/images/logo.svg"
-      alt="TechShield"
-      width={140}
-      height={36}
-      priority
-    />
+    <div className="flex items-center gap-2">
+      <Image
+        src="/images/logo.jpg"
+        alt="SysT"
+        width={64}
+        height={64}
+        priority
+        className="rounded-md"
+      />
+      <span className="text-xl font-bold text-white">SysT</span>
+    </div>
   );
 }
 
@@ -35,7 +39,7 @@ function LocaleLink({ href, children }: { href: string; children: React.ReactNod
     : `/${locale}${href}`;
 
   return (
-    <a href={localizedHref} className="text-gray-700 hover:text-primary transition-colors">
+    <a href={localizedHref} className="text-gray-300 hover:text-white transition-colors">
       {children}
     </a>
   );
@@ -55,7 +59,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-shadow ${
-        scrolled ? 'bg-white shadow-md' : 'bg-white/90 backdrop-blur-sm'
+        scrolled ? 'bg-[#0d1b2e] shadow-md' : 'bg-[#0d1b2e]/95 backdrop-blur-sm'
       }`}
     >
       <nav className="container mx-auto px-4 flex items-center justify-between h-16">

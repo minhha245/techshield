@@ -90,8 +90,9 @@
     "button": "Contact Us"
   },
   "footer": {
-    "address": "37 Ngo 599 Pham Van Dong, TDP Hoang 15, Nghia Do Ward, Hanoi",
-    "copyright": "© {year} SysT Technology Co., Ltd. All rights reserved.",
+    "contact": "Contact",
+    "address": "Ngo 14, ngach 2a, Pham Lieu Street, Bac Giang Ward, Bac Ninh Province",
+    "copyright": "© {year} SysT Technology Solutions Co., Ltd. All rights reserved.",
     "services": "Services",
     "serviceLinks": {
       "consulting": "Information Security Consulting",

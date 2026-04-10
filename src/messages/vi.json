@@ -1,60 +1,60 @@
 {
   "nav": {
-    "home": "Trang chu",
-    "about": "Gioi thieu",
-    "services": "Dich vu",
-    "partners": "Doi tac",
-    "news": "Tin tuc",
-    "contact": "Lien he"
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "partners": "Đối tác",
+    "news": "Tin tức",
+    "contact": "Liên hệ"
   },
   "hero": {
-    "tagline": "Doi tac tin cay trong ky nguyen so",
-    "subtitle": "Chuyen cung cap giai phap CNTT va an toan thong tin toan dien, giup doanh nghiep phat trien ben vung va an toan trong moi truong so hoa.",
-    "cta": "Ve SysT"
+    "tagline": "Đối tác tin cậy trong kỷ nguyên số",
+    "subtitle": "Chuyên cung cấp giải pháp CNTT và an toàn thông tin toàn diện, giúp doanh nghiệp phát triển bền vững và an toàn trong môi trường số hóa.",
+    "cta": "Về SysT"
   },
   "about": {
-    "heading": "Ve SysT",
-    "intro": "Voi hon 5 nam kinh nghiem, SysT la doi tac tin cay cua rat nhieu doanh nghiep trong viec xay dung va bao ve ha tang cong nghe thong tin.",
+    "heading": "Về SysT",
+    "intro": "Với hơn 5 năm kinh nghiệm, SysT là đối tác tin cậy của rất nhiều doanh nghiệp trong việc xây dựng và bảo vệ hạ tầng công nghệ thông tin.",
     "highlights": {
-      "experience": "Kinh nghiem 10+ nam",
-      "experienceDesc": "Doi ngu chuyen gia voi hon 10 nam kinh nghiem trong linh vuc CNTT va an toan thong tin.",
-      "solutions": "Giai phap toan dien",
-      "solutionsDesc": "Tu tu van, thiet ke den trien khai va bao tri, chung toi cung cap dich vu end-to-end.",
-      "support": "Ho tro 24/7",
-      "supportDesc": "Doi ngu ky thuat san sang ho tro khach hang 24/7 voi thoi gian phan hoi nhanh chong.",
-      "certifications": "Chung nhan quoc te",
-      "certificationsDesc": "Cac chung nhan ISO 27001, CISSP va nhieu chung nhan quoc te khac."
+      "experience": "Kinh nghiệm 10+ năm",
+      "experienceDesc": "Đội ngũ chuyên gia với hơn 10 năm kinh nghiệm trong lĩnh vực CNTT và an toàn thông tin.",
+      "solutions": "Giải pháp toàn diện",
+      "solutionsDesc": "Từ tư vấn, thiết kế đến triển khai và bảo trì, chúng tôi cung cấp dịch vụ end-to-end.",
+      "support": "Hỗ trợ 24/7",
+      "supportDesc": "Đội ngũ kỹ thuật sẵn sàng hỗ trợ khách hàng 24/7 với thời gian phản hồi nhanh chóng.",
+      "certifications": "Chứng nhận quốc tế",
+      "certificationsDesc": "Các chứng nhận ISO 27001, CISSP và nhiều chứng nhận quốc tế khác."
     },
     "certBadgeAlt": {
-      "iso": "Chung nhan ISO 27001",
-      "cissp": "Chung nhan CISSP"
+      "iso": "Chứng nhận ISO 27001",
+      "cissp": "Chứng nhận CISSP"
     }
   },
   "services": {
-    "heading": "Dich vu noi bat",
-    "subheading": "Giai phap toan dien tu tu van den trien khai, dap ung moi nhu cau CNTT cua doanh nghiep",
+    "heading": "Dịch vụ nổi bật",
+    "subheading": "Giải pháp toàn diện từ tư vấn đến triển khai, đáp ứng mọi nhu cầu CNTT của doanh nghiệp",
     "items": {
       "consulting": {
-        "title": "Tu van An toan thong tin",
-        "description": "Danh gia rui ro, tu van chinh sach bao mat va trien khai giai phap an toan thong tin toan dien."
+        "title": "Tư vấn An toàn thông tin",
+        "description": "Đánh giá rủi ro, tư vấn chính sách bảo mật và triển khai giải pháp an toàn thông tin toàn diện."
       },
       "infrastructure": {
-        "title": "Thiet ke ha tang CNTT",
-        "description": "Thiet ke va trien khai ha tang mang, server, storage dap ung nhu cau doanh nghiep."
+        "title": "Thiết kế hạ tầng CNTT",
+        "description": "Thiết kế và triển khai hạ tầng mạng, server, storage đáp ứng nhu cầu doanh nghiệp."
       },
       "equipment": {
-        "title": "Mua ban thiet bi CNTT",
-        "description": "Cung cap thiet bi CNTT chinh hang tu cac thuong hieu hang dau the gioi."
+        "title": "Mua bán thiết bị CNTT",
+        "description": "Cung cấp thiết bị CNTT chính hãng từ các thương hiệu hàng đầu thế giới."
       },
       "hardware_software": {
-        "title": "Tu van phan cung/phan mem",
-        "description": "Tu van lua chon va trien khai giai phap phan cung, phan mem phu hop."
+        "title": "Tư vấn phần cứng/phần mềm",
+        "description": "Tư vấn lựa chọn và triển khai giải pháp phần cứng, phần mềm phù hợp."
       }
     }
   },
   "partners": {
-    "heading": "Doi tac chien luoc",
-    "subheading": "Hop tac voi cac thuong hieu cong nghe hang dau the gioi",
+    "heading": "Đối tác chiến lược",
+    "subheading": "Hợp tác với các thương hiệu công nghệ hàng đầu thế giới",
     "alt": {
       "microsoft": "Logo Microsoft",
       "cisco": "Logo Cisco",
@@ -65,39 +65,40 @@
     }
   },
   "news": {
-    "heading": "Tin tuc & Su kien",
-    "subheading": "Cap nhat nhung thong tin moi nhat ve cong nghe va hoat dong cua SysT",
-    "readMore": "Doc them",
-    "notAvailable": "Bai viet chua co san",
+    "heading": "Tin tức & Sự kiện",
+    "subheading": "Cập nhật những thông tin mới nhất về công nghệ và hoạt động của SysT",
+    "readMore": "Đọc thêm",
+    "notAvailable": "Bài viết chưa có sẵn",
     "items": {
       "news1": {
-        "title": "SysT duoc chung nhan ISO 27001:2022",
-        "excerpt": "Cong ty vua nhan duoc chung nhan quan ly an toan thong tin quoc te ISO 27001 phien ban moi nhat."
+        "title": "SysT được chứng nhận ISO 27001:2022",
+        "excerpt": "Công ty vừa nhận được chứng nhận quản lý an toàn thông tin quốc tế ISO 27001 phiên bản mới nhất."
       },
       "news2": {
-        "title": "Hoi thao An toan thong tin trong ky nguyen so",
-        "excerpt": "Su kien quy tu hon 200 chuyen gia IT va lanh dao doanh nghiep hang dau Viet Nam."
+        "title": "Hội thảo An toàn thông tin trong kỷ nguyên số",
+        "excerpt": "Sự kiện quy tụ hơn 200 chuyên gia IT và lãnh đạo doanh nghiệp hàng đầu Việt Nam."
       },
       "news3": {
-        "title": "Mo rong dich vu Cloud Security",
-        "excerpt": "Ra mat bo giai phap bao mat dam may toan dien cho doanh nghiep vua va nho."
+        "title": "Mở rộng dịch vụ Cloud Security",
+        "excerpt": "Ra mắt bộ giải pháp bảo mật đám mây toàn diện cho doanh nghiệp vừa và nhỏ."
       }
     }
   },
   "cta": {
-    "heading": "San sang bao ve doanh nghiep cua ban?",
-    "description": "Lien he voi chung toi ngay hom nay de duoc tu van mien phi ve giai phap CNTT va an toan thong tin",
-    "button": "Lien he ngay"
+    "heading": "Sẵn sàng bảo vệ doanh nghiệp của bạn?",
+    "description": "Liên hệ với chúng tôi ngay hôm nay để được tư vấn miễn phí về giải pháp CNTT và an toàn thông tin",
+    "button": "Liên hệ ngay"
   },
   "footer": {
-    "address": "37 Ngo 599 Pham Van Dong, TDP Hoang 15, Phuong Nghia Do, Thanh Pho Ha Noi",
-    "copyright": "© {year} Cong ty TNHH Cong Nghe SysT. Tat ca quyen duoc bao luu.",
-    "services": "Dich vu",
+    "contact": "Liên hệ",
+    "address": "Ngõ 14, ngách 2a, đường Phạm Liêu, phường Bắc Giang, tỉnh Bắc Ninh",
+    "copyright": "© {year} SysT Technology Solution - Bản quyền thuộc về Công ty TNHH Giải Pháp Công Nghệ SysT",
+    "services": "Dịch vụ",
     "serviceLinks": {
-      "consulting": "Tu van An toan thong tin",
-      "infrastructure": "Thiet ke ha tang CNTT",
-      "equipment": "Mua ban thiet bi CNTT",
-      "hardware_software": "Tu van phan cung/phan mem"
+      "consulting": "Tư vấn An toàn thông tin",
+      "infrastructure": "Thiết kế hạ tầng CNTT",
+      "equipment": "Mua bán thiết bị CNTT",
+      "hardware_software": "Tư vấn phần cứng/phần mềm"
     }
   }
 }

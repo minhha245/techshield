@@ -40,9 +40,9 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300 py-12">
+    <footer className="bg-[#080f1c] text-gray-300 py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
             <span className="text-white font-bold text-xl block mb-3">SysT</span>
@@ -65,18 +65,25 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services + address */}
+          {/* Services */}
           <div>
             <h3 className="text-white font-semibold mb-4">{t('footer.services')}</h3>
-            <ul className="space-y-2 text-sm mb-6">
+            <ul className="space-y-2 text-sm">
               {SERVICE_LINKS.map((key) => (
                 <li key={key}>
                   <span className="text-gray-400">{t(`footer.serviceLinks.${key}`)}</span>
                 </li>
               ))}
             </ul>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed">
-              {t('footer.address')}
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="text-white font-semibold mb-4">{t('footer.contact')}</h3>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed space-y-2">
+              <p>Email: <a href="mailto:sale@syst.vn" className="hover:text-white transition-colors">sale@syst.vn</a></p>
+              <p>Số điện thoại: <a href="tel:0348070196" className="hover:text-white transition-colors">0348070196</a> / <a href="tel:0352321730" className="hover:text-white transition-colors">0352321730</a></p>
+              <p>{t('footer.address')}</p>
             </address>
           </div>
         </div>
