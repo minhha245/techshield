@@ -16,29 +16,31 @@ export default function PartnersSection() {
         <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">{t('subheading')}</p>
 
         <div className="overflow-hidden rounded-3xl bg-[#0f1b34]/80 p-4 shadow-xl shadow-black/20">
-          <div className="flex min-w-full items-center gap-6 animate-marquee">
-            {[...PARTNERS, ...PARTNERS].map((partner, index) => {
-              const altKey = partner.id as 'microsoft' | 'cisco' | 'vmware' | 'dell' | 'hpe' | 'fortinet';
-              return (
-                <TiltCard
-                  key={`${partner.id}-${index}`}
-                  className="flex-shrink-0 w-56 h-48 rounded-3xl p-1 transition-all duration-300"
-                >
-                  <div className="h-full w-full rounded-3xl bg-white p-4 flex items-center justify-center border border-transparent bg-gradient-to-br from-white/90 via-white/80 to-white/90">
-                    <div className="relative w-full h-full">
-                      <PartnerLogo
-                        src={partner.logo}
-                        alt={t(`alt.${altKey}`)}
-                        fill
-                        sizes="160px"
-                        style={{ objectFit: 'contain' }}
-                        partnerName={partner.name}
-                      />
+          <div className="animate-marquee">
+            <div className="marquee-track flex items-center gap-6">
+              {[...PARTNERS, ...PARTNERS].map((partner, index) => {
+                const altKey = partner.id as 'microsoft' | 'cisco' | 'vmware' | 'dell' | 'hpe' | 'fortinet';
+                return (
+                  <TiltCard
+                    key={`${partner.id}-${index}`}
+                    className="flex-shrink-0 w-56 h-48 rounded-3xl p-1 transition-all duration-300"
+                  >
+                    <div className="h-full w-full rounded-3xl bg-white p-4 flex items-center justify-center border border-transparent bg-gradient-to-br from-white/90 via-white/80 to-white/90">
+                      <div className="relative w-full h-full">
+                        <PartnerLogo
+                          src={partner.logo}
+                          alt={t(`alt.${altKey}`)}
+                          fill
+                          sizes="160px"
+                          style={{ objectFit: 'contain' }}
+                          partnerName={partner.name}
+                        />
+                      </div>
                     </div>
-                  </div>
-                </TiltCard>
-              );
-            })}
+                  </TiltCard>
+                );
+              })}
+            </div>
           </div>
         </div>
       </SectionReveal>
