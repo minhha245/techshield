@@ -6,10 +6,10 @@ import { routing } from '@/i18n/routing';
 
 export const metadata: Metadata = {
   title: {
-    default: 'TechShield',
-    template: '%s | TechShield',
+    default: 'SysT',
+    template: '%s | SysT',
   },
-  description: 'Giai phap CNTT va an toan thong tin toan dien',
+  description: 'Giải pháp CNTT và an toàn thông tin toàn diện',
 };
 
 type Props = {

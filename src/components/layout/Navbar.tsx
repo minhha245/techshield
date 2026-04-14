@@ -20,8 +20,8 @@ function Logo() {
       <Image
         src="/images/logo.jpg"
         alt="SysT"
-        width={64}
-        height={64}
+        width={45}
+        height={45}
         priority
         className="rounded-md"
       />
