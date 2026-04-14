@@ -1,19 +1,21 @@
 import { useTranslations } from 'next-intl';
 import { HIGHLIGHTS } from '@/lib/data';
+import SectionReveal from '@/components/ui/SectionReveal';
+import Counter from '@/components/ui/Counter';
 
-const ICONS: Record<string, string> = {
-  Clock: '10+',
-  Layers: '360',
-  Headphones: '24/7',
-  Award: 'ISO',
-};
+const NUMBERS = [
+  { value: 10, suffix: '+' },
+  { value: 360, suffix: '' },
+  { value: 24, suffix: '/7' },
+  { label: 'ISO' },
+];
 
 export default function AboutSection() {
   const t = useTranslations('about');
 
   return (
     <section id="about" className="py-16 md:py-24 bg-[#152238]">
-      <div className="container mx-auto px-4">
+      <SectionReveal className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-4 text-white">{t('heading')}</h2>
         <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">{t('intro')}</p>
 
@@ -22,21 +24,27 @@ export default function AboutSection() {
           {HIGHLIGHTS.map((item, index) => (
             <div
               key={item.id}
-              className="text-center p-6 rounded-xl border border-white/10 shadow-sm hover:shadow-md transition-shadow bg-white/5"
+              className="group card-gradient-hover overflow-hidden rounded-3xl"
             >
-              <div className="w-12 h-12 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-primary font-bold text-sm">{ICONS[item.icon]}</span>
+              <div className="h-full rounded-3xl bg-[#152238] p-6 transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_28px_80px_-40px_rgba(56,189,248,0.85)]">
+                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-5 text-2xl font-bold" style={{ color: '#0052cc' }}>
+                  {NUMBERS[index]?.value ? (
+                    <Counter target={NUMBERS[index].value} suffix={NUMBERS[index].suffix} className="" />
+                  ) : (
+                    <span>{NUMBERS[index].label}</span>
+                  )}
+                </div>
+                <h3 className="font-semibold text-white mb-2">
+                  {t(`highlights.${['experience', 'solutions', 'support', 'certifications'][index]}`)}
+                </h3>
+                <p className="text-sm text-gray-400">
+                  {t(`highlights.${['experienceDesc', 'solutionsDesc', 'supportDesc', 'certificationsDesc'][index]}`)}
+                </p>
               </div>
-              <h3 className="font-semibold text-white mb-2">
-                {t(`highlights.${['experience', 'solutions', 'support', 'certifications'][index]}`)}
-              </h3>
-              <p className="text-sm text-gray-400">
-                {t(`highlights.${['experienceDesc', 'solutionsDesc', 'supportDesc', 'certificationsDesc'][index]}`)}
-              </p>
             </div>
           ))}
         </div>
-      </div>
+      </SectionReveal>
     </section>
   );
 }

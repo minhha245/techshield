@@ -1,5 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { SERVICES } from '@/lib/data';
+import SectionReveal from '@/components/ui/SectionReveal';
+import TiltCard from '@/components/ui/TiltCard';
 
 const ICON_SVG: Record<string, React.ReactNode> = {
   Shield: (
@@ -29,7 +31,7 @@ export default function ServicesSection() {
 
   return (
     <section id="services" className="py-16 md:py-24 bg-[#152238]">
-      <div className="container mx-auto px-4">
+      <SectionReveal className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-4 text-white">{t('heading')}</h2>
         <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">{t('subheading')}</p>
 
@@ -37,24 +39,23 @@ export default function ServicesSection() {
           {SERVICES.map((service) => {
             const itemKey = service.id as 'consulting' | 'infrastructure' | 'equipment' | 'hardware_software';
             return (
-              <div
-                key={service.id}
-                className="bg-white/5 border border-white/10 p-6 rounded-xl hover:shadow-md transition-shadow"
-              >
-                <div className="w-12 h-12 bg-primary-light rounded-lg flex items-center justify-center text-primary mb-4">
-                  {ICON_SVG[service.icon]}
+              <TiltCard key={service.id} className="rounded-3xl bg-gradient-to-br from-white/10 via-white/5 to-white/10 p-[1px]">
+                <div className="h-full rounded-3xl bg-[#152238]/90 backdrop-blur-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_80px_-40px_rgba(56,189,248,0.85)]">
+                  <div className="w-12 h-12 bg-primary-light rounded-lg flex items-center justify-center text-primary mb-4">
+                    {ICON_SVG[service.icon]}
+                  </div>
+                  <h3 className="font-semibold text-white mb-2">
+                    {t(`items.${itemKey}.title`)}
+                  </h3>
+                  <p className="text-sm text-gray-400">
+                    {t(`items.${itemKey}.description`)}
+                  </p>
                 </div>
-                <h3 className="font-semibold text-white mb-2">
-                  {t(`items.${itemKey}.title`)}
-                </h3>
-                <p className="text-sm text-gray-400">
-                  {t(`items.${itemKey}.description`)}
-                </p>
-              </div>
+              </TiltCard>
             );
           })}
         </div>
-      </div>
+      </SectionReveal>
     </section>
   );
 }
