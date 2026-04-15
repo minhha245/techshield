@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import ScrollProgress from '@/components/ui/ScrollProgress';
+import ContactFloatingButtons from '@/components/ui/ContactFloatingButtons';
 
 // Good: import font once at root layout, use CSS variable
 const inter = Inter({
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html className={inter.variable}>
       <body>
         <ScrollProgress />
+        <ContactFloatingButtons />
         {children}
       </body>
     </html>
