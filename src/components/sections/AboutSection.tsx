@@ -4,7 +4,7 @@ import SectionReveal from '@/components/ui/SectionReveal';
 import Counter from '@/components/ui/Counter';
 
 const NUMBERS = [
-  { value: 10, suffix: '+' },
+  { value: 3, suffix: '+' },
   { value: 360, suffix: '' },
   { value: 24, suffix: '/7' },
   { label: 'ISO' },
